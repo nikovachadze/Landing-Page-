@@ -1,0 +1,428 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.header-conteiner {
+    display: flex;
+    border-bottom: 1px solid #A8A8A840;
+}
+
+.header-conteiner h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #0A7777;
+    padding: 55px 70px 50px 95px;
+}
+
+
+.header-conteiner ul {
+    display: flex;
+    gap: 70px;
+    font-family:'Inter';
+    padding: 55px;
+    color: black;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.button {
+    box-sizing: border-box;
+    border: 1px solid #0A7777;
+    border-radius: 9px;
+    background-color: #0A7777;
+    padding: 9px 9px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.button a{
+    font-family:'inter';
+    border: #0A7777;
+    border-radius: 9px;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 29px;
+    padding: 8px 10px;;
+    color: #FFFFFF;
+}
+
+.conteiner{
+    display: flex;
+    }
+
+.conteiner-box{
+    padding: 139px 30px 0px 80px;
+    margin-right: 100px;
+
+}
+
+.conteiner h2 {
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 69px;
+    display: flex;
+    align-items: center;
+    width: 500px;
+}
+
+.conteiner p {
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    width: 550px;
+    margin-top: 38px;
+    margin-bottom: 62px;
+}
+
+.conteiner img{
+    margin-top: 69px;
+}
+
+.conteiner-first {
+    display: flex;
+    margin-top: 200px;
+}
+
+.conteiner-first-box1{
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+.image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+.image2 {
+    position: absolute;
+    top: 300px;
+    left: 200px;
+  }
+
+.conteiner-first-box2{
+    padding: 100px 200px 0px 300px;
+}
+
+.conteiner-first-box2 h4{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: #0A7777;
+    margin-bottom: 50px;
+}
+
+.conteiner-first-box2 h2{
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 69px;
+    display: flex;
+    align-items: center;
+    width: 500px;
+}
+
+.conteiner-first-box2 p{
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    width: 520px;
+    height: 170px;
+    margin-top: 50px;
+}
+
+.number {
+    display: flex;
+    gap: 70px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 61px;
+    display: flex;
+    align-items: center;
+    color: #0A7777;
+}
+
+.text {
+    display: flex;
+    width: 200px;
+    gap: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 50px;
+}
+
+.conteiner-second h4 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: #0A7777;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+.conteiner-second h2{
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 69px;
+    display: flex;
+    align-items: center;
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.column {
+    display: flex;
+    margin-top: 30px;
+}
+
+.column img {
+    margin-left: 20px;
+    width: 320px;
+    height: 403px;
+}
+
+.points{
+    margin-left: 430px;
+    margin-top: 100px;
+    display: flex;
+    gap: 20px;
+}
+
+.conteiner-three h4 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: #0A7777;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+.conteiner-three h2{
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 69px;
+    display: flex;
+    align-items: center;
+    width: 600px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.star {
+    display: flex;
+}
+
+.star img {
+    margin-left: 100px;
+    width: 200px;
+    height: 403px;
+}
+
+.conteiner-four h2 {
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 69px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 580px;
+    height: 200px;
+    margin-left: 350px;
+    margin-top: 300px;
+}
+
+.conteiner-four p{
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 380px;    
+}
+
+.conteiner-four button {
+    border: 1px solid #0A7777;
+    background-color: #0A7777;
+    border-radius: 9px;
+    align-items: center;
+    padding: 7px;
+    gap: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 500px;
+    margin-top: 50px;
+    width: 200px;
+}
+
+.tour {
+    display: flex;
+    gap: 10px;
+}
+
+.tour img {
+    margin-left: 100px;
+    width: 210px;
+    height: 403px;
+}
+
+
+.footer {
+    width: 100%;
+    background: #ffff;
+    min-height: 500px;
+    height: fit-content;
+    padding-top: 140px;
+    margin-left: 150px;
+}
+
+.container {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info {
+    width: 200px;
+}
+
+.info h3 {
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px    ;
+    line-height: 35px;
+    letter-spacing: -0.02em;
+    color: #000000;
+    margin-bottom: 50px;
+}
+
+.info ul li{
+    margin: 17px 0;
+}
+
+.info ul li a {
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    letter-spacing: -0.02em;
+    color: #000000;
+    margin-top: 200px;
+}
+
+.footer-Subscribe {
+    width: 300px;
+}
+
+.footer-Subscribe h3{
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+
+.footer-Subscribe p {
+    font-family: 'Istok Web';
+    width: 220px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    letter-spacing: -0.02em;
+    color: #000000;
+    margin-top: 37px;
+}
+
+.logos {
+    width: 240px;
+    margin-left: 50px;
+}
+
+.logos h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 53px;
+    letter-spacing: -0.02em;
+    color: #0a7777;
+    margin-bottom: 56px;
+}
+.logos img {
+    margin-bottom: 28px;
+}
+
+.logos-two img {
+    margin-right: 40px;
+}
+
+
+@media only screen and (max-width: 900px) {
+    
+    * {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .info{
+        margin: 25px 0;
+    }
+}
